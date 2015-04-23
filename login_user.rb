@@ -97,6 +97,6 @@ hash = gets.chomp.downcase
 if hash == record["favorite_ice cream flavor"]
   puts "Login Success!"
 else
-  puts "No match "
+  puts "No match"
   exit
 end
