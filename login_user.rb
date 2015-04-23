@@ -95,7 +95,7 @@ f.close
 puts "favorite icecream flavor?"
 hash = gets.chomp.downcase
 if hash == record["favorite_ice cream flavor"]
-  puts "Match."
+  puts "Login Success!"
 else
   puts "No match "
   exit
